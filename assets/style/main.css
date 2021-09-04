@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap");
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+.btn-master, .btn-secondary, .btn-primary {
+  padding: 15px 40px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-primary {
+  background-color: #563ad6 !important;
+}
+
+.btn-secondary {
+  background-color: #eaebf4 !important;
+  color: #777790 !important;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 60px;
+  color: #02044a !important;
+}
+
+.description {
+  margin: 20px 0px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #9b9cb7;
+}
+
+.navbar-telepatia {
+  padding-top: 30px;
+}
+.navbar-telepatia .navbar-nav li {
+  padding-left: 50px;
+}
+.navbar-telepatia .navbar-nav .nav-link {
+  color: #02044a;
+  font-weight: 400;
+}
+.navbar-telepatia .navbar-nav .active {
+  color: #563ad6 !important;
+  font-weight: 500 !important;
+}
+
+section.sales {
+  padding-top: 80px;
+}
+section.sales .copywriting {
+  margin: 0 auto;
+}
+section.sales .copywriting a {
+  margin-top: 20px;
+}
+section.sales .partner-brand {
+  margin-top: 70px;
+}
+
+section.pricing {
+  margin-top: 70px;
+  background-color: #f9f9fb;
+}
+section.pricing .header {
+  margin-top: 70px;
+}/*# sourceMappingURL=main.css.map */

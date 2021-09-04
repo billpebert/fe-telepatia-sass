@@ -1,0 +1,45 @@
+.navbar-telepatia {
+  padding-top: 30px;
+
+  .navbar-nav {
+    li {
+      padding-left: 50px;
+    }
+
+    .nav-link {
+      color: $navy;
+      font-weight: map-get($font-weight, regular); //style 1
+    }
+
+    .active {
+      color: $purple !important;
+      font-weight: map-get(
+        $map: $font-weight,
+        $key: medium
+      ) !important; //style 2
+    }
+  }
+}
+
+section.sales {
+  padding-top: 80px;
+  .copywriting {
+    margin: 0 auto;
+    a {
+      margin-top: 20px;
+    }
+  }
+
+  .partner-brand {
+    margin-top: 70px;
+  }
+}
+
+section.pricing {
+  margin-top: 70px;
+  background-color: $lilpur;
+
+  .header {
+    margin-top: 70px;
+  }
+}
