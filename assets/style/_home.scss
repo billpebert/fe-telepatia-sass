@@ -37,9 +37,66 @@ section.sales {
 
 section.pricing {
   margin-top: 70px;
+  padding: 70px 0 70px;
   background-color: $lilpur;
 
-  .header {
-    margin-top: 70px;
+  .master-card {
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 22px;
+
+    .title {
+      color: $navy;
+      font-size: 18px;
+      margin-bottom: 16px;
+      font-weight: map-get($map: $font-weight, $key: medium);
+    }
+
+    .header {
+      font-size: 36px;
+      margin: 0;
+    }
+
+    .description {
+      line-height: 24px;
+      font-size: 16px;
+      margin-top: 0px;
+      margin-bottom: 40px;
+    }
+
+    .benefit-list {
+      list-style-type: none;
+      padding: 0;
+    }
+  }
+
+  .basic-card {
+    @extend .master-card;
+    background-color: $white;
+    color: $navy;
+  }
+
+  .popular-card {
+    @extend .master-card;
+    background-color: $purple;
+    color: $white;
+
+    .header,
+    .title {
+      color: $white !important;
+    }
+
+    .description {
+      color: #b19fff;
+    }
+  }
+
+  .benefit-list {
+    margin-bottom: 40px;
+    li {
+      font-size: 16px;
+      font-weight: map-get($map: $font-weight, $key: medium);
+      margin-bottom: 20px;
+    }
   }
 }

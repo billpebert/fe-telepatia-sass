@@ -3,7 +3,7 @@
   font-family: "Rubik", sans-serif;
 }
 
-.btn-master, .btn-secondary, .btn-primary {
+.btn-master, .btn-aqua, .btn-secondary, .btn-primary {
   padding: 15px 40px;
   border-radius: 10px;
   font-size: 18px;
@@ -18,6 +18,14 @@
 .btn-secondary {
   background-color: #eaebf4 !important;
   color: #777790 !important;
+}
+
+.btn-aqua {
+  background-color: #3abad6;
+  color: #ffffff;
+}
+.btn-aqua:hover {
+  color: #ffffff !important;
 }
 
 .header {
@@ -65,8 +73,54 @@ section.sales .partner-brand {
 
 section.pricing {
   margin-top: 70px;
+  padding: 70px 0 70px;
   background-color: #f9f9fb;
 }
-section.pricing .header {
-  margin-top: 70px;
+section.pricing .master-card, section.pricing .popular-card, section.pricing .basic-card {
+  margin-top: 50px;
+  padding: 30px;
+  border-radius: 22px;
+}
+section.pricing .master-card .title, section.pricing .popular-card .title, section.pricing .basic-card .title {
+  color: #02044a;
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+section.pricing .master-card .header, section.pricing .popular-card .header, section.pricing .basic-card .header {
+  font-size: 36px;
+  margin: 0;
+}
+section.pricing .master-card .description, section.pricing .popular-card .description, section.pricing .basic-card .description {
+  line-height: 24px;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+section.pricing .master-card .benefit-list, section.pricing .popular-card .benefit-list, section.pricing .basic-card .benefit-list {
+  list-style-type: none;
+  padding: 0;
+}
+section.pricing .basic-card {
+  background-color: #ffffff;
+  color: #02044a;
+}
+section.pricing .popular-card {
+  background-color: #563ad6;
+  color: #ffffff;
+}
+section.pricing .popular-card .header,
+section.pricing .popular-card .title {
+  color: #ffffff !important;
+}
+section.pricing .popular-card .description {
+  color: #b19fff;
+}
+section.pricing .benefit-list {
+  margin-bottom: 40px;
+}
+section.pricing .benefit-list li {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */

@@ -16,3 +16,13 @@
   background-color: $secondary-color !important;
   color: $darpur !important;
 }
+
+.btn-aqua {
+  @extend .btn-master;
+  background-color: $aqua;
+  color: $white;
+
+  &:hover {
+    color: $white !important;
+  }
+}
